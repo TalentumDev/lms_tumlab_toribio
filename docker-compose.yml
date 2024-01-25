@@ -93,7 +93,7 @@ services:
       - aulas-steam-net
 
   frontend:
-    image: bilinguismotalentum/frontend:1.0.0-toribio
+    image: bilinguismotalentum/frontend:1.0.1-toribio
     container_name: bilng_valle_reporter_frontend
     restart: always
     extra_hosts:
