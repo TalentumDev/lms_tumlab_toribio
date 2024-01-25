@@ -75,11 +75,11 @@ services:
       KEYCLOAK_DB_USER: postgres
       KEYCLOAK_DB_NAME: keycloak
       KEYCLOAK_DB_PASSWORD: Tumlab2022*
-      KEYCLOAK_API_URL: /admin/realms/aulassteamregional
+      KEYCLOAK_API_URL: /admin/realms/aulassteamtoribio
       KEYCLOAK_BASE_URL: http://tumlab.local:8080/auth
       KEYCLOAK_CLIENT_ID: client-api
-      KEYCLOAK_CLIENT_SECRET: IzqX3IUCmGSvHl6DVhcPjoj3aJNdbeYY
-      KEYCLOAK_GET_TOKEN_URL: /realms/aulassteamregional/protocol/openid-connect/token
+      KEYCLOAK_CLIENT_SECRET: ZZmlv8Ink9rGFZBeLlbW3dOOQQmoIwvA
+      KEYCLOAK_GET_TOKEN_URL: /realms/aulassteamtoribio/protocol/openid-connect/token
       OVERRIDE_DB_HOST: host.docker.internal
       OVERRIDE_DB_PASSWORD: Tumlab2022*
       OVERRIDE_DB_PORT: 3306
