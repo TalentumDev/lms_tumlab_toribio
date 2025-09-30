@@ -139,7 +139,7 @@ services:
       - aulas-steam-net
       
   moodle:
-    image: bilinguismotalentum/php74-apache2:1.0.1
+    image: bilinguismotalentum/php74-apache2:1.2.0
     container_name: aulas_valle_moodle
     restart: always
     extra_hosts:
